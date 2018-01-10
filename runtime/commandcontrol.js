@@ -2,7 +2,6 @@
 var directory = require('require-directory')
 var bugsnag = require('bugsnag')
 var config = require('../config.json')
-bugsnag.register(config.api_keys.bugsnag)
 var com = directory(module, './commands', {
   exclude: /custom/
 })
@@ -62,9 +61,7 @@ exports.helpHandle = function (msg, suffix) {
       }
     }
     var misc = [
-      'If you want more information on the commands, check the command reference at http://docs.thesharks.xyz/commands.',
-      'For further questions, join our server: discord.gg/wildbot',
-      'Like what we do? Consider supporting my developer at Patreon! <https://www.patreon.com/Dougley>'
+      'MEOW'
     ]
     msg.author.openDM().then((y) => {
       if (!msg.isPrivate) {
