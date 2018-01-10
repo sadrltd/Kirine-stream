@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "Kirine-stream",
+  "name": "kirine",
   "version": "4.4.0",
   "description": "A Discord Bot",
   "main": "kirine.js",
@@ -13,7 +13,7 @@
   "scripts": {
     "prestart": "npm update",
     "test": "standard & eslint **",
-    "start": "node DougBot.js",
+    "start": "node kirine.js",
     "dbcreate": "node runtime/internal/dbcreate.js",
     "snyk-protect": "snyk protect"
   },
