@@ -8,7 +8,6 @@ var YT = require('youtube-dl')
 var fs = require('fs')
 var Logger = require('./logger.js').Logger
 var Config = require('../../config.json')
-var bugsnag = require('bugsnag')
 
 exports.registerVanity = function (msg) {
   list[msg.guild.id] = {
