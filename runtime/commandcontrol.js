@@ -1,6 +1,5 @@
 'use strict'
 var directory = require('require-directory')
-var bugsnag = require('bugsnag')
 var config = require('../config.json')
 var com = directory(module, './commands', {
   exclude: /custom/
