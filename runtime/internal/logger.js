@@ -2,20 +2,11 @@
 var Winston = require('winston')
 var path = require('path')
 var config = require('../../config.json')
-var Elasticsearch = require('winston-elasticsearch')
 
 Winston.emitErrs = true
 
 var Logger
 
-if (config.elasticsearch.use === true) {
-  var elasticsearch = require('elasticsearch')
-  var esTransportOpts = {
-    level: 'silly',
-    consistency: false,
-    client: new elasticsearch.Client(config.elasticsearch.client),
-    indexPrefix: 'wildbeast'
-  }
   Logger = new Winston.Logger({
     colors: {
       info: 'green',
@@ -24,17 +15,9 @@ if (config.elasticsearch.use === true) {
       debug: 'blue',
       silly: 'blue'
     },
-    transports: [
-      new Elasticsearch(esTransportOpts),
-      new (Winston.transports.Console)({
-        humanReadableUnhandledException: true,
-        level: 'verbose',
-        colorize: true,
-        json: false
-      })
-    ],
     exitOnError: true
   })
+
 } else {
   Logger = new Winston.Logger({
     colors: {
