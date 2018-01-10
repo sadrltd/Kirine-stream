@@ -10,7 +10,7 @@
     "user": "admin"
   },
   "settings": {
-    "prefix": "anything can be entered as the global prefix, refer to installation guide",
+    "prefix": "--",
     "autodeletemsg": true,
     "deleteTimeout": 3000,
     "deleteTimeoutLong": 6000,
@@ -28,21 +28,9 @@
     }
   },
   "permissions": {
-    "master": ["201668330522673152", "you can extend this array like this if you need more"],
-    "level1": [],
-    "level2": [],
-    "level3": []
-  },
-  "api_keys": {
-    "imgflip": {
-      "username": "Imgflip username",
-      "password": "imgflip password"
-    },
-    "google": "A google key",
-    "twitchId": "A twitch Client-ID",
-    "bugsnag": "A Bugsnag api key, Bugsnag tracker users only",
-    "imgur": "A Imgur Client-ID",
-    "cleverbot_user": "",
-    "cleverbot_key": ""
+    "master": ["201668330522673152"],
+    "level1": ["201668330522673152"],
+    "level2": ["201668330522673152"],
+    "level3": ["201668330522673152"]
   }
 }
