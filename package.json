@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "WildBeast - Kirine Edition",
+  "name": "Kirine-stream",
   "version": "4.4.0",
   "description": "A Discord Bot",
   "main": "DougBot.js",
@@ -22,11 +22,11 @@
     "email": "none@none.none"
   },
   "bugs": {
-    "url": "https://github.com/TheSharks/WildBeast/issues"
+    "url": "https://github.com/sadrltd/Kirine-stream"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheSharks/WildBeast.git"
+    "url": "git+https://github.com/sadrltd/Kirine-stream.git"
   },
   "engines": {
     "node": "4.x.x - 6.x.x",
