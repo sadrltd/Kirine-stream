@@ -1,5 +1,5 @@
 'use strict'
-process.title = 'WildBeast - Kirine Edition'
+process.title = 'Kirine-stream'
 
 var Config
 
