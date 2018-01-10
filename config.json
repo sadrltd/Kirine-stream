@@ -1,7 +1,7 @@
 {
   "bot": {
-    "token": "Bot token",
-    "oauth": "Bot OAuth URL, see wiki"
+    "token": "MzUzOTU0MDY4OTIzNjc4NzMw.DTe9FA.w5UtGsNBGrWFjffwF_rk1v6mm2I",
+    "oauth": "https://discordapp.com/api/oauth2/authorize?client_id=353954068923678730&permissions=36825088&scope=bot"
   },
   "database": {
     "host": "localhost",
@@ -28,7 +28,7 @@
     }
   },
   "permissions": {
-    "master": ["you need to enter the ID from the user you want as master here", "you can extend this array like this if you need more"],
+    "master": ["201668330522673152", "you can extend this array like this if you need more"],
     "level1": [],
     "level2": [],
     "level3": []
