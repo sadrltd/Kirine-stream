@@ -18,5 +18,3 @@ var Logger
     exitOnError: true
   })
 }
-
-exports.Logger = Logger
