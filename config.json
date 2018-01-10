@@ -1,7 +1,6 @@
 {
   "bot": {
     "token": "MzUzOTU0MDY4OTIzNjc4NzMw.DTe9FA.w5UtGsNBGrWFjffwF_rk1v6mm2I",
-    "oauth": "https://discordapp.com/api/oauth2/authorize?client_id=353954068923678730&permissions=36825088&scope=bot"
   },
   "database": {
     "host": "localhost",
@@ -14,8 +13,8 @@
     "autodeletemsg": true,
     "deleteTimeout": 3000,
     "deleteTimeoutLong": 6000,
-    "maxvcslots": 10,
-    "leaveAfterEndOfPlaylist": true
+    "maxvcslots": 15,
+    "leaveAfterEndOfPlaylist": false
     }
   },
   "permissions": {
