@@ -3,7 +3,7 @@
   "name": "Kirine-stream",
   "version": "4.4.0",
   "description": "A Discord Bot",
-  "main": "DougBot.js",
+  "main": "kirine.js",
   "maintainers": [
     {
       "name": "Monsters Inc.",
