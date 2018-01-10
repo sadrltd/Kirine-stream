@@ -9,11 +9,6 @@ try {
   console.log('\nWildBeast encountered an error while trying to load the config file, please resolve this issue and restart WildBeast\n\n' + e.message)
   process.exit()
 }
-
-var argv = require('minimist')(process.argv.slice(2))
-var Logger = require('./runtime/internal/logger.js').Logger
-var Bezerk = require('./runtime/internal/bezerk.js')
-
 var Discordie = require('discordie')
 var Event = Discordie.Events
 var bot
@@ -38,9 +33,6 @@ if (argv.shardmode && !isNaN(argv.shardid) && !isNaN(argv.shardcount)) {
 }
 
 start()
-
-var bugsnag = require('bugsnag')
-bugsnag.register(Config.api_keys.bugsnag)
 
 bot.Dispatcher.on(Event.GATEWAY_READY, function () {
   bot.Users.fetchMembers()
