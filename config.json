@@ -1,6 +1,6 @@
 {  
 "bot": {
-    "token": "MzUzOTU0MDY4OTIzNjc4NzMw.DTe9FA.w5UtGsNBGrWFjffwF_rk1v6mm2I",
+    "token": "MzUzOTU0MDY4OTIzNjc4NzMw.DTe9FA.w5UtGsNBGrWFjffwF_rk1v6mm2I"
   },
   "database": {
     "host": "localhost",
@@ -22,5 +22,6 @@
     "level1": ["201668330522673152"],
     "level2": ["201668330522673152"],
     "level3": ["201668330522673152"]
-  }
+  },
+    }
 }
