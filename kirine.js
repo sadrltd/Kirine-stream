@@ -1,5 +1,5 @@
 'use strict'
-process.title = 'Kirine-stream'
+process.title = 'kirine'
 
 var Config
 
